@@ -21,8 +21,9 @@ header {
   color: white;
   z-index: 1; /* Ensure header is above the background */
   position: absolute; /* Positioning header over the background */
-  top: 20%;
-  width: 100%;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust for true center */
 }
 
 #under-construction {
